@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MedAssist Modern Palette -->
+    <color name="primary_color">#0099CC</color>
+    <color name="primary_dark">#0077B3</color>
+    <color name="accent_color">#66CC66</color>
+    
+    <!-- Standard Colors -->
+    <color name="background_color">#F0F4F7</color>
+    <color name="surface_color">#FFFFFF</color>
+    <color name="text_primary">#333333</color>
+    <color name="text_secondary">#666666</color>
+    
+    <!-- Status Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="error_color">#D32F2F</color>
+    <color name="success_color">#388E3C</color>
+    <color name="warning_color">#FFA000</color>
+</resources>

@@ -1,0 +1,108 @@
+<!-- Correcting strings.xml -->
+<resources>
+    <!-- App Name -->
+    <string name="app_name">MedAssist</string>
+    
+    <!-- Login Screen -->
+    <string name="welcome_message">Welcome to MedAssist</string>
+    <string name="sign_in_google">Sign in with Google</string>
+    <string name="continue_guest">Continue as Guest</string>
+    <string name="healthcare_companion">Your Healthcare Companion</string>
+    <string name="login_success">Login successful!</string>
+    <string name="login_error">Login failed. Please try again.</string>
+    
+    <!-- Biometric Authentication -->
+    <string name="biometric_login_button">🔐 Use Fingerprint / Face ID</string>
+    <string name="biometric_login_title">Biometric Authentication</string>
+    <string name="biometric_login_subtitle">Use your fingerprint or face to continue</string>
+    <string name="biometric_login_success">Authentication successful!</string>
+    <string name="biometric_login_first_time">Please sign in with Google first to enable biometric login</string>
+    <string name="biometric_not_available">Biometric authentication is not available on this device</string>
+    <string name="biometric_error_cancelled">Authentication cancelled</string>
+    <string name="biometric_error_failed">Authentication failed. Please try again.</string>
+    
+    <!-- Home Screen -->
+    <string name="home_title">Home</string>
+    <string name="welcome_back">Welcome back, %1$s!</string>
+    <string name="home_subtitle">Manage your health and appointments</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="recent_activity">Recent Activity</string>
+    <string name="home">Home</string>
+    <string name="articles">Articles</string>
+    <string name="bookings">Bookings</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    
+    <!-- Articles -->
+    <string name="health_articles">Health Articles</string>
+    <string name="article_by">By %1$s</string>
+    <string name="loading_articles">Loading articles...</string>
+    <string name="articles_loaded">Loaded %1$d articles</string>
+    <string name="articles_failed">Failed to load articles</string>
+    
+    <!-- Bookings -->
+    <string name="search_doctors">Search Doctors</string>
+    <string name="search_hint">Search by name, specialty...</string>
+    <string name="book_appointment">Book Appointment</string>
+    <string name="my_bookings">My Bookings</string>
+    <string name="doctors_loaded">Loaded %1$d doctors</string>
+    <string name="doctors_failed">Failed to load doctors</string>
+    <string name="no_doctors_found">No doctors found for \'%1$s\'</string>
+    <string name="doctors_found">Found %1$d doctor(s)</string>
+    
+    <!-- Booking Form -->
+    <string name="patient_name">Patient Name</string>
+    <string name="patient_email">Email</string>
+    <string name="patient_phone">Phone</string>
+    <string name="appointment_reason">Reason for Visit</string>
+    <string name="booking_appointment">Booking appointment...</string>
+    <string name="booking_confirmed">Booking confirmed!</string>
+    <string name="booking_failed">Booking failed. Please try again.</string>
+    <string name="fill_all_fields">Please fill in all fields</string>
+    
+    <!-- Settings -->
+    <string name="user_information">User Information</string>
+    <string name="upload_profile_picture">Upload Profile Picture</string>
+    <string name="preferences">Preferences</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="dark_theme_description">Switch between light and dark mode</string>
+    <string name="notifications">Notifications</string>
+    <string name="notifications_description">Receive appointment reminders</string>
+    <string name="language">Language</string>
+    <string name="language_description">Select your preferred language</string>
+    <string name="select_language">Select Language</string>
+    <string name="theme_saved">Theme preference saved</string>
+    <string name="notification_saved">Notification preference saved</string>
+    <string name="language_saved">Language preference saved</string>
+    <string name="developer_tools">Developer Tools</string>
+    <string name="seed_database">🌱 Seed Firestore Database</string>
+    <string name="logout">Logout</string>
+    <string name="logging_out">Logging out...</string>
+    <string name="uploading_image">Uploading image...</string>
+    <string name="image_uploaded">Profile picture uploaded successfully!</string>
+    <string name="image_upload_failed">Failed to upload image: %1$s</string>
+    <string name="login_required_upload">Please log in to upload profile picture</string>
+    
+    <!-- Common -->
+    <string name="back">← Back</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="loading">Loading...</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    
+    <!-- Language Names -->
+    <string name="language_english">English</string>
+    <string name="language_afrikaans">Afrikaans</string>
+    <string name="language_zulu">isiZulu</string>
+    
+    <!-- Sync & Testing -->
+    <string name="sync_data_now">🔄 Sync Data Now</string>
+    <string name="test_notification">🔔 Test Notification</string>
+    <string name="sync_complete">Sync complete: %1$d articles</string>
+    <string name="sync_failed">Sync failed: %1$s</string>
+    <string name="test_notification_sent">Test notification sent! Check your notification bar.</string>
+    <string name="test_notification_title">🔔 Test Notification</string>
+    <string name="test_notification_text">This is a test notification from MedAssist. Real-time notifications work!</string>
+</resources>

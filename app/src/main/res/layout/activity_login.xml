@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="@color/background_color"
+    tools:context=".ui.screens.auth.LoginActivity">
+
+    <!--
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/logo"
+        android:layout_marginBottom="24dp" />
+    -->
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_color"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/subtitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/healthcare_companion"
+        android:textSize="16sp"
+        android:textColor="@color/text_secondary"
+        android:layout_marginBottom="48dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/googleSignInButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/sign_in_google"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/primary_color"
+        app:cornerRadius="12dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/guestButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/continue_guest"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        app:strokeColor="@color/primary_color"
+        app:strokeWidth="2dp"
+        app:cornerRadius="12dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/biometricButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/biometric_login_button"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:drawableStart="@android:drawable/ic_lock_lock"
+        android:drawablePadding="8dp"
+        android:gravity="center"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        app:strokeColor="@color/primary_color"
+        app:strokeWidth="2dp"
+        app:cornerRadius="12dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/versionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Version 2.0 - Distinction Level"
+        android:textSize="12sp"
+        android:textColor="@color/text_secondary" />
+
+</LinearLayout>

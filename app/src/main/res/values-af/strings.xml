@@ -1,0 +1,98 @@
+<!-- Correcting strings.xml -->
+<resources>
+    <!-- App Name -->
+    <string name="app_name">MedAssist</string>
+    
+    <!-- Login Screen -->
+    <string name="welcome_message">Welkom by MedAssist</string>
+    <string name="sign_in_google">Meld aan met Google</string>
+    <string name="continue_guest">Gaan voort as Gas</string>
+    <string name="healthcare_companion">Jou Gesondheidsmaat</string>
+    <string name="login_success">Aanmelding suksesvol!</string>
+    <string name="login_error">Aanmelding het misluk. Probeer asseblief weer.</string>
+    
+    <!-- Home Screen -->
+    <string name="home_title">Tuis</string>
+    <string name="welcome_back">Welkom terug, %1$s!</string>
+    <string name="home_subtitle">Bestuur jou gesondheid en afsprake</string>
+    <string name="quick_actions">Vinnige Aksies</string>
+    <string name="recent_activity">Onlangse Aktiwiteit</string>
+    <string name="home">Tuis</string>
+    <string name="articles">Artikels</string>
+    <string name="bookings">Besprekings</string>
+    <string name="profile">Profiel</string>
+    <string name="settings">Instellings</string>
+    
+    <!-- Articles -->
+    <string name="health_articles">Gesondheidsartikels</string>
+    <string name="article_by">Deur %1$s</string>
+    <string name="loading_articles">Laai artikels...</string>
+    <string name="articles_loaded">%1$d artikels gelaai</string>
+    <string name="articles_failed">Kon nie artikels laai nie</string>
+    
+    <!-- Bookings -->
+    <string name="search_doctors">Soek Dokters</string>
+    <string name="search_hint">Soek volgens naam, spesialiteit...</string>
+    <string name="book_appointment">Bespreek Afspraak</string>
+    <string name="my_bookings">My Besprekings</string>
+    <string name="doctors_loaded">%1$d dokters gelaai</string>
+    <string name="doctors_failed">Kon nie dokters laai nie</string>
+    <string name="no_doctors_found">Geen dokters gevind vir \'%1$s\'</string>
+    <string name="doctors_found">%1$d dokter(s) gevind</string>
+    
+    <!-- Booking Form -->
+    <string name="patient_name">Pasiënt Naam</string>
+    <string name="patient_email">E-pos</string>
+    <string name="patient_phone">Telefoon</string>
+    <string name="appointment_reason">Rede vir Besoek</string>
+    <string name="booking_appointment">Bespreek afspraak...</string>
+    <string name="booking_confirmed">Bespreking bevestig!</string>
+    <string name="booking_failed">Bespreking het misluk. Probeer asseblief weer.</string>
+    <string name="fill_all_fields">Vul asseblief alle velde in</string>
+    
+    <!-- Settings -->
+    <string name="user_information">Gebruikersinligting</string>
+    <string name="upload_profile_picture">Laai Profielfoto Op</string>
+    <string name="preferences">Voorkeure</string>
+    <string name="dark_theme">Donker Tema</string>
+    <string name="dark_theme_description">Wissel tussen ligte en donker modus</string>
+    <string name="notifications">Kennisgewings</string>
+    <string name="notifications_description">Ontvang afspraak herinnerings</string>
+    <string name="language">Taal</string>
+    <string name="language_description">Kies jou voorkeur taal</string>
+    <string name="select_language">Kies Taal</string>
+    <string name="theme_saved">Tema voorkeur gestoor</string>
+    <string name="notification_saved">Kennisgewing voorkeur gestoor</string>
+    <string name="language_saved">Taal voorkeur gestoor</string>
+    <string name="developer_tools">Ontwikkelaar Gereedskap</string>
+    <string name="seed_database">🌱 Saai Firestore Databasis</string>
+    <string name="logout">Teken Uit</string>
+    <string name="logging_out">Teken uit...</string>
+    <string name="uploading_image">Laai prent op...</string>
+    <string name="image_uploaded">Profielfoto suksesvol opgelaai!</string>
+    <string name="image_upload_failed">Kon nie prent oplaai nie: %1$s</string>
+    <string name="login_required_upload">Meld asseblief aan om profielfoto op te laai</string>
+    
+    <!-- Common -->
+    <string name="back">← Terug</string>
+    <string name="save">Stoor</string>
+    <string name="cancel">Kanselleer</string>
+    <string name="confirm">Bevestig</string>
+    <string name="loading">Laai...</string>
+    <string name="error">Fout</string>
+    <string name="success">Sukses</string>
+    
+    <!-- Language Names -->
+    <string name="language_english">Engels</string>
+    <string name="language_afrikaans">Afrikaans</string>
+    <string name="language_zulu">isiZulu</string>
+    
+    <!-- Sync & Testing -->
+    <string name="sync_data_now">🔄 Sinkroniseer Data Nou</string>
+    <string name="test_notification">🔔 Toets Kennisgewing</string>
+    <string name="sync_complete">Sinkronisasie voltooi: %1$d artikels</string>
+    <string name="sync_failed">Sinkronisasie het misluk: %1$s</string>
+    <string name="test_notification_sent">Toets kennisgewing gestuur! Gaan na jou kennisgewingsbalk.</string>
+    <string name="test_notification_title">🔔 Toets Kennisgewing</string>
+    <string name="test_notification_text">Dit is \'n toets kennisgewing van MedAssist. Intydse kennisgewings werk!</string>
+</resources>

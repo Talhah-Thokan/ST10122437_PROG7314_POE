@@ -1,0 +1,98 @@
+<!-- Correcting strings.xml -->
+<resources>
+    <!-- App Name -->
+    <string name="app_name">MedAssist</string>
+    
+    <!-- Login Screen -->
+    <string name="welcome_message">Siyakwamukela ku-MedAssist</string>
+    <string name="sign_in_google">Ngena nge-Google</string>
+    <string name="continue_guest">Qhubeka njengomthengi</string>
+    <string name="healthcare_companion">Umngane Wakho Wezempilo</string>
+    <string name="login_success">Ukungenela kuphumelele!</string>
+    <string name="login_error">Ukungenela kuhlulekile. Sicela uzame futhi.</string>
+    
+    <!-- Home Screen -->
+    <string name="home_title">Ikhaya</string>
+    <string name="welcome_back">Siyakwamukela futhi, %1$s!</string>
+    <string name="home_subtitle">Phatha impilo yakho kanye nama-aphoyintimenti</string>
+    <string name="quick_actions">Izenzo Ezisheshayo</string>
+    <string name="recent_activity">Umsebenzi Wakamuva</string>
+    <string name="home">Ikhaya</string>
+    <string name="articles">Izindatshana</string>
+    <string name="bookings">Izibopho</string>
+    <string name="profile">Iphrofayili</string>
+    <string name="settings">Izilungiselelo</string>
+    
+    <!-- Articles -->
+    <string name="health_articles">Izindatshana Zezempilo</string>
+    <string name="article_by">Ngu-%1$s</string>
+    <string name="loading_articles">Ilayisha izindatshana...</string>
+    <string name="articles_loaded">Izindatshana ezingu-%1$d zilayishiwe</string>
+    <string name="articles_failed">Ayikwazanga ukulayisha izindatshana</string>
+    
+    <!-- Bookings -->
+    <string name="search_doctors">Sesha Odokotela</string>
+    <string name="search_hint">Sesha ngegama, ubuchwepheshe...</string>
+    <string name="book_appointment">Bopha Isibopho</string>
+    <string name="my_bookings">Izibopho Zami</string>
+    <string name="doctors_loaded">Odokotela abangu-%1$d balayishiwe</string>
+    <string name="doctors_failed">Ayikwazanga ukulayisha odokotela</string>
+    <string name="no_doctors_found">Awukho odokotela abatholakele nge-\'%1$s\'</string>
+    <string name="doctors_found">Odokotela abangu-%1$d batholakele</string>
+    
+    <!-- Booking Form -->
+    <string name="patient_name">Igama Lesiguli</string>
+    <string name="patient_email">I-imeyili</string>
+    <string name="patient_phone">Ucingo</string>
+    <string name="appointment_reason">Isizathu Sokuvakasha</string>
+    <string name="booking_appointment">Ibopha isibopho...</string>
+    <string name="booking_confirmed">Isibopho siqinisekisiwe!</string>
+    <string name="booking_failed">Ukubopha kuhlulekile. Sicela uzame futhi.</string>
+    <string name="fill_all_fields">Sicela ugcwalise zonke izinkambu</string>
+    
+    <!-- Settings -->
+    <string name="user_information">Ulwazi Lwomsebenzisi</string>
+    <string name="upload_profile_picture">Layisha Isithombe Sephrofayili</string>
+    <string name="preferences">Okukhethwayo</string>
+    <string name="dark_theme">Isimo Esimnyama</string>
+    <string name="dark_theme_description">Shintsha phakathi kwemodi ekhanyayo neyimnyama</string>
+    <string name="notifications">Izaziso</string>
+    <string name="notifications_description">Thola izikhumbuzi zezibopho</string>
+    <string name="language">Ulimi</string>
+    <string name="language_description">Khetha ulimi olukhethwayo</string>
+    <string name="select_language">Khetha Ulimi</string>
+    <string name="theme_saved">Okukhethwayo kwesimo sigcinwe</string>
+    <string name="notification_saved">Okukhethwayo kwezaziso kugcinwe</string>
+    <string name="language_saved">Okukhethwayo kolimi kugcinwe</string>
+    <string name="developer_tools">Amathuluzi Abathuthukisi</string>
+    <string name="seed_database">🌱 Hlwayela Isizinda Sedatha se-Firestore</string>
+    <string name="logout">Phuma</string>
+    <string name="logging_out">Uyaphuma...</string>
+    <string name="uploading_image">Ilayisha isithombe...</string>
+    <string name="image_uploaded">Isithombe sephrofayili silayishiwe ngempumelelo!</string>
+    <string name="image_upload_failed">Ayikwazanga ukulayisha isithombe: %1$s</string>
+    <string name="login_required_upload">Sicela ungene ukuze ulayishe isithombe sephrofayili</string>
+    
+    <!-- Common -->
+    <string name="back">← Emuva</string>
+    <string name="save">Gcina</string>
+    <string name="cancel">Khansela</string>
+    <string name="confirm">Qinisekisa</string>
+    <string name="loading">Ilayisha...</string>
+    <string name="error">Iphutha</string>
+    <string name="success">Impumelelo</string>
+    
+    <!-- Language Names -->
+    <string name="language_english">IsiNgisi</string>
+    <string name="language_afrikaans">IsiBhunu</string>
+    <string name="language_zulu">isiZulu</string>
+    
+    <!-- Sync & Testing -->
+    <string name="sync_data_now">🔄 Vumelanisa Idatha Manje</string>
+    <string name="test_notification">🔔 Isaziso Sokuhlola</string>
+    <string name="sync_complete">Ukuhlanganisa kuqediwe: %1$d izindatshana</string>
+    <string name="sync_failed">Ukuhlanganisa kuhlulekile: %1$s</string>
+    <string name="test_notification_sent">Isaziso sokuhlola sithunyelwe! Bheka ibha yakho yezaziso.</string>
+    <string name="test_notification_title">🔔 Isaziso Sokuhlola</string>
+    <string name="test_notification_text">Lona isaziso sokuhlola esivela ku-MedAssist. Izaziso zangempela ziyasebenza!</string>
+</resources>
